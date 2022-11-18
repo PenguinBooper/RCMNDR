@@ -1,0 +1,231 @@
+<html>
+<head>
+  <title>
+    RCMNDR
+  </title>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(90deg,#0c192c,#5a1a31,#ff2d75);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-content{
+  margin: 0 40px;
+}
+.card{
+  width:320px;
+  border-radius: 17px;
+  background-color: #391f58;
+  margin: 15px;
+  display: inline-block;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px
+}
+.image-content{
+  row-gap: 5px;
+  position: relative;
+  padding:25px 0;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff2d75;
+}
+.name{
+  font-size: 30px;
+  font-weight: 500;
+  color: #c43063;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #6d1a39;
+  padding: 8px 16px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: #0c192c;
+  margin: 14px;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #1e3251;
+}
+  </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="slide-content">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name" style="font-size: 22px;"><%= recTracks[0] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name" style="font-size: 22px;"><%= recTracks[1] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"style="font-size: 22px;"><%= recTracks[2] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"style="font-size: 22px;"><%= recTracks[3] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"style="font-size: 22px;"><%= recTracks[4] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"style="font-size: 22px;"><%= recTracks[5] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"style="font-size: 22px;"><%= recTracks[6] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name"style="font-size: 22px;"><%= recTracks[7] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-content">
+              <span class="overlay">
+    
+                <div class="card-image">
+                  <img src="spotifylogo.jpg" alt="" class="card-img">
+                </div>
+              </span>
+            </div>
+    
+            <div class="card-content">
+              <h2 class="name" style="font-size: 22px;"><%= recTracks[9] %></h2>
+              <!-- <button class="button">Listen</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+    <!-- <ul>
+
+        <%recTracks.forEach(function(track){ %>
+          <li>
+            <%=track%>;
+            </li>
+        <%})%>
+
+    </ul> -->
+  </body>
+</html>
